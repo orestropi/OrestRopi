@@ -21,19 +21,22 @@ a {
 .footer {
   padding-bottom: 20px;
   background-color: black;
-  background-image: url('../milky-way.jpg');
+  background-image: url('../milky-way2.jpg');
   background-size:cover;
   background-position: center;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .demo-bg {
-  width: 100% auto;
   opacity: 0.4;
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   height: auto;
 }
 

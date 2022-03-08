@@ -32,8 +32,8 @@ function MainFooter() {
         <footer className='footer'>
 
             <div>
-                <Box>
-                    <Container maxWidth="lg">
+                <Box >
+                    <Container  style = {{paddingTop: '50px'}} maxWidth="md">
                         <Grid container textAlign={'center'} direction="row" spacing={2}>
                             <Grid style = {{paddingTop: '50px'}} item xs={12} sm={6} md={6}>
                             <IconButton className = 'button1' style ={mystyle} onClick={handleGit} size="large"><GitHubIcon /> </IconButton>
