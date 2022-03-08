@@ -18,11 +18,20 @@ a {
 .footer {
   padding-bottom: 20px;
   background-color: black;
-  /* background-image: url('./footer-background.png')!important; */
-  background-size:auto;
+  background-image: url('../milky-way.jpg');
+  background-size:cover;
   background-position: center;
   overflow: hidden;
   position: relative;
+}
+
+.demo-bg {
+  width: 100% auto;
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
 }
 
 .button1 {

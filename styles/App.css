@@ -46,8 +46,7 @@
 
 .footer {
   padding-bottom: 20px;
-  background-color: black;
-  /* background-image: url('./footer-background.png')!important; */
+  background-image: url('../milky-way.jpg')!important; 
   background-size: cover;
   background-position: center;
   overflow: hidden;

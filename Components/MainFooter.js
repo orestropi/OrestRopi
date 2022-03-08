@@ -9,7 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/icons-material/GitHub';
 import IconButton2 from '@mui/icons-material/LinkedIn';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import footerBackground from '../';
+import footerBackground from '../milky-way.jpg';
 
 function MainFooter() {
 
@@ -30,11 +30,7 @@ function MainFooter() {
         
 
         <footer className='footer'>
-            { <img
-                class="demo-bg"
-                src={footerBackground}
-                alt=""
-            ></img> }
+
             <div>
                 <Box>
                     <Container maxWidth="lg">
