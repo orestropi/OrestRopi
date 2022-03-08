@@ -11,8 +11,6 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Link from 'next/link'
 
-const pages = ['Home', 'About Me', 'Contact'];
-const links = ['/', '/About.js', '/Contact.js'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -25,6 +23,11 @@ const ResponsiveAppBar = () => {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
+const pages = [
+    {pageName:"Home",link:"/"},
+    {pageName:"About Me",link:"/About"},
+    {pageName:"Contact",link:"/Contact"}
+];
 
   return (
     <AppBar position="fixed" sx ={{ flexGrow: 1, display: 'flex', justifyContent: 'start' }}>
@@ -68,13 +71,14 @@ const ResponsiveAppBar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (links.map((link) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Link href={link}>
-                  <Typography textAlign="center">{page}</Typography>
+              {pages.map((page) => (
+                <MenuItem key={page.pageName} onClick={handleCloseNavMenu}>
+                    
+                      <Link href={page.link}>
+                  <Typography textAlign="center">{page.pageName}</Typography>
                   </Link>
                 </MenuItem>
-              ))))}
+              ))}
             </Menu>
           </Box>
           <Typography
@@ -87,12 +91,13 @@ const ResponsiveAppBar = () => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+                
               <Button
-                key={page}
+                key={page.pageName}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {page.pageName}
               </Button>
             ))}
           </Box>

@@ -4,7 +4,9 @@ import styles from '../styles/Home.module.css'
 import ResponsiveAppBar from '../Components/ResponsiveAppBar'
 import MainFooter from '../Components/MainFooter'
 import MainBody from '../Components/MainBody'
+
 export default function Home() {
+
   return (
     
 
