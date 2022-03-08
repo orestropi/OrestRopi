@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.footer {
+  padding-bottom: 20px;
+  background-color: black;
+  /* background-image: url('./footer-background.png')!important; */
+  background-size:auto;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.button1 {
+  text-decoration: none;  
+  display: inline-block;
+  cursor: pointer;
+  background-color: cyan;
+  color: grey;
+}
+
+.button1:hover {
+  background-color: grey;
+  color: cyan;
+}
