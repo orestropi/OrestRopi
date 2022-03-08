@@ -7,7 +7,8 @@ import Typography from '@mui/material/Typography';
 // import footerBackground from '../milky-way.jpg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/icons-material/GitHub';
-
+import IconButton2 from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function MainFooter() {
 
     const mystyle = {
@@ -42,27 +43,27 @@ function MainFooter() {
                                     Projects
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a target={'_blank'} href="https://rickandmortyfp.glitch.me/">P1: R&M Treemaps</a>
+                                    <a style={{ textDecoration: 'underline' }} target={'_blank'} href="https://rickandmortyfp.glitch.me/">P1: R&M Treemaps</a>
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a target={'_blank'} href="https://github.com/orestropi/GridGame">P2: GridGame</a>
+                                    <a style={{ textDecoration: 'underline' }} target={'_blank'} href="https://github.com/orestropi/GridGame">P2: GridGame</a>
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a target={'_blank'} href="https://github.com/orestropi/a3-orestropi">P3: ContactTracker</a>
+                                    <a style={{ textDecoration: 'underline' }} target={'_blank'} href="https://github.com/orestropi/a3-orestropi">P3: ContactTracker</a>
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a target={'_blank'} href="https://github.com/BlueOcean090/final_project">P4: TaskManager </a>
+                                    <a style={{ textDecoration: 'underline' }} target={'_blank'} href="https://github.com/BlueOcean090/final_project">P4: TaskManager </a>
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a target={'_blank'} href="https://github.com/orestropi/P2-OthelloAI/blob/main/agony.py">P5: OthelloAI</a>
+                                    <a style={{ textDecoration: 'underline' }} target={'_blank'} href="https://github.com/orestropi/P2-OthelloAI/blob/main/agony.py">P5: OthelloAI</a>
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a target={'_blank'} href="https://github.com/orestropi/P2-Networking/blob/main/wireview.cpp">P6: WireView</a>
+                                    <a style={{ textDecoration: 'underline' }} target={'_blank'} href="https://github.com/orestropi/P2-Networking/blob/main/wireview.cpp">P6: WireView</a>
                                 </Typography>
                             </Grid>
                             
                             <Grid style = {{paddingTop: '50px'}} item xs={12} sm={6} md={6}>
-                                <IconButton className = 'button1' style ={mystyle} onClick={handleGit} size="large"><GitHubIcon/> </IconButton>
+                                <IconButton2 className = 'button1' style ={mystyle} onClick={handleGit} size="large"><LinkedInIcon/> </IconButton2>
                                 <Typography variant="h6" color="white" >
                                     Work Experience
                                 </Typography>
