@@ -9,6 +9,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/icons-material/GitHub';
 import IconButton2 from '@mui/icons-material/LinkedIn';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import footerBackground from '../';
+
 function MainFooter() {
 
     const mystyle = {
@@ -28,11 +30,11 @@ function MainFooter() {
         
 
         <footer className='footer'>
-            {/* <img
+            { <img
                 class="demo-bg"
                 src={footerBackground}
                 alt=""
-            ></img> */}
+            ></img> }
             <div>
                 <Box>
                     <Container maxWidth="lg">
@@ -63,7 +65,7 @@ function MainFooter() {
                             </Grid>
                             
                             <Grid style = {{paddingTop: '50px'}} item xs={12} sm={6} md={6}>
-                                <IconButton2 className = 'button1' style ={mystyle} onClick={handleGit} size="large"><LinkedInIcon/> </IconButton2>
+                                <IconButton2 className = 'button1' style ={mystyle} onClick={handleLinked} size="large"><LinkedInIcon/> </IconButton2>
                                 <Typography variant="h6" color="white" >
                                     Work Experience
                                 </Typography>
