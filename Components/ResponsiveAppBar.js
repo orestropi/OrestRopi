@@ -97,7 +97,7 @@ const pages = [
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page.pageName}
+                <Link href={page.link}>{page.pageName}</Link>
               </Button>
             ))}
           </Box>

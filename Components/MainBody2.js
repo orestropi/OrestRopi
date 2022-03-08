@@ -13,7 +13,7 @@ function MainBody2() {
                     <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 800 }} container spacing={2}>
                         
                         <Grid item xs={12} sm={12} md={6} style={{ display: "flex", justifyContent: "flex-start" }}>
-                            <h2>ABOUT ME</h2>
+                            <h2>About</h2>
                             
                         </Grid>
                         <li>A java game that allows users to make moves until the center square is 11 or they are out of moves.</li>
