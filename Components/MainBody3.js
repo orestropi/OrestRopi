@@ -20,7 +20,7 @@ function MainBody3() {
                         <li>Fully tested using JUnit5 test cases.</li>
                         <li>An individual project created for my software engineering class that was written in Java using Java Swing for the GUI.</li>
                         <li>Uses The Model View Controller (MVC) design pattern for scalability and development efficiency.</li>
-                        <iframe scrolling="no" id='iframe-chart' width="100%" height="100%" src="https://rickandmortyfinalp.glitch.me/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe scrolling="no" id='iframe-chart' width="100%" height="100%" src="https://rickandmortyfinalp.glitch.me/" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </Grid>
                     <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 100 }} container spacing={2}>
                         
