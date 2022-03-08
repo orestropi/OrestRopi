@@ -1,9 +1,8 @@
 import React from "react";
-import MainBody2 from "../Components/MainBody2";
-import '../App.css';
+import MainBody3 from "../Components/MainBody3";
 function Contact() {
     return <div className="App">      
-    <MainBody2 />
+    <MainBody3 />
     </div>;
 }
 
