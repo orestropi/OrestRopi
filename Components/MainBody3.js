@@ -1,80 +1,74 @@
-import { Card, Grid, Paper, Typography } from '@mui/material'
+import { Card, Grid, Paper, Typography, ImageList, ImageListItem } from '@mui/material'
 import React from 'react'
 
+function srcset(image, size, rows = 1, cols = 1) {
+    return {
+      src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
+      srcSet: `${image}?w=${size * cols}&h=${
+        size * rows
+      }&fit=crop&auto=format&dpr=2 2x`,
+    };
+  }
 
+  
 function MainBody3() {
 
     return (
-        <div>
+        <div >
             <div className='main-body-item' >
-                <Grid direction="column" container spacing={10}style={{ marginTop: '5%'}}>
+                <Grid direction="column" container spacing={10}style={{ marginTop: '1%'}}>
 
 
-                    <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 800 }} container spacing={2}>
+                    <Grid item direction="row" height={'120vh'} style={{ marginBottom: '10%'}} container spacing={2}>
                         
-                        <Grid item xs={12} sm={12} md={6} style={{ display: "flex", justifyContent: "flex-start" }}>
-                            <h2>Contact</h2>
-                            
-                        </Grid>
-                        <li>A java game that allows users to make moves until the center square is 11 or they are out of moves.</li>
-                        <li>Fully tested using JUnit5 test cases.</li>
-                        <li>An individual project created for my software engineering class that was written in Java using Java Swing for the GUI.</li>
-                        <li>Uses The Model View Controller (MVC) design pattern for scalability and development efficiency.</li>
-                        <iframe scrolling="no" id='iframe-chart' width="100%" height="100%" src="https://rickandmortyfinalp.glitch.me/" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </Grid>
-                    <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 100 }} container spacing={2}>
+                        <Grid  style={{ justifyContent: "flex-start" }}>
                         
-                        <Grid item xs={12} sm={12} md={6} style={{ display: "flex", justifyContent: "flex-start" }}>
-                        <h2>P2: GridGame</h2>
-
+                        <h1 style={{ marginBottom: '1%', textAlign: 'center' }}>Gjirokastra, Albania - "City of Stone"</h1>
+                
+                        <ImageList
+                        sx={{ width: 1000, height: 900 }}
+                        variant="quilted"
+                        cols={4}
+                        rowHeight={242}
+                        >
+                        {itemData.map((item) => (
+                            <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
+                            <img
+                                {...srcset(item.img, 121, item.rows, item.cols)}
+                                alt={item.title}
+                                loading="lazy"
+                            />
+                            </ImageListItem>
+                        ))}
+                        </ImageList>
                         </Grid>
-                        <li>A java game that allows users to make moves until the center square is 11 or they are out of moves.</li>
-                        <li>Fully tested using JUnit5 test cases.</li>
-                        <li>An individual project created for my software engineering class that was written in Java using Java Swing for the GUI.</li>
-                        <li>Uses The Model View Controller (MVC) design pattern for scalability and development efficiency.</li>
-                    </Grid>
-
-                    <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 100 }} container spacing={2}>
                         
-                        <Grid item xs={12} sm={12} md={6} style={{ display: "flex", justifyContent: "flex-start" }}>
-                            <h2>P3: ContactTracker</h2>
-
-                        </Grid>
-                        <li>A website that allows users to create accounts and record contacts.</li>
-                        <li>An individual project for my webware class that used JavaScript, Node.js, Express.js, @hapi/joi, HTML, CSS, cookies, and mongoDB.</li>
                     </Grid>
 
-                    <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 100 }} container spacing={2}>
+                    <Grid item direction="row" height={'120vh'} style={{ marginBottom: '10%'}} container spacing={2}>
                         
-                        <Grid item xs={12} sm={12} md={6} style={{ display: "flex", justifyContent: "flex-start" }}>
-                        <h2>P4: TaskManager</h2>
-
-                        </Grid>
-                        <li>A website that allows users to create accounts and record personalised tasks and subtasks.</li>
-                        <li>A group project for my webware class that used JavaScript, HTML, and CSS.</li>
-                        <li>I contributed by organizing meetings, creating a login system using mongoDB(front end & back end), and main task functionality(front end & back end).</li>
-                    </Grid>
-
-                    <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 100 }} container spacing={2}>
+                        <Grid  style={{ justifyContent: "flex-start" }}>
                         
-                        <Grid item xs={12} sm={12} md={6} style={{ display: "flex", justifyContent: "flex-start" }}>
-                        <h2>P5: OthelloAI</h2>
-
+                        <h1 style={{ marginBottom: '1%', textAlign: 'center' }}>Albania - Communism Recovery Visualized</h1>
+                
+                        <ImageList
+                        sx={{ width: 1000, height: 900 }}
+                        variant="quilted"
+                        cols={4}
+                        rowHeight={242}
+                        >
+                        {itemData2.map((item) => (
+                            <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
+                            <img
+                                {...srcset(item.img, 121, item.rows, item.cols)}
+                                alt={item.title}
+                                loading="lazy"
+                            />
+                            </ImageListItem>
+                        ))}
+                        </ImageList>
                         </Grid>
-                        <li>An engine that plays optimal moves in the board game Othello using a minimax algorithm with alpha-beta pruning.</li>
-                        <li>A group project for my AI class that was written in Python. I contributed to writing an evaluation function, writing the majority of the minimax algorithm, and helping with the alpha-beta pruning.</li>
-                        <li>The engine, named agony.py, usually can reach a depth of 8-10 moves within 5 seconds.</li>
-                    </Grid>
-
-                    <Grid item direction="row" height={'420vh'} style={{ marginBottom: '20%', maxHeight: 100 }} container spacing={2}>
                         
-                        <Grid item xs={12} sm={12} md={6} style={{ display: "flex", justifyContent: "flex-start" }}>
-                        <h2>P6: WireView</h2>
-
-                        </Grid>
-                        <li>Similar to Wireshark the program parses tcpdump data into different headers, protocols, senders, and recipients.</li>
-                        <li>A group project for my networks class that quickly turned into an individual project when my partner stopped doing work.</li>
-                        <li>Works on Ubuntu 20.04 Linux virtual machine and is written in C and C++ using the pcap library.</li>
                     </Grid>
 
                 </Grid>
@@ -82,5 +76,80 @@ function MainBody3() {
         </div>
     )
 }
+
+const itemData = [
+    {
+      img: 'AGmap.svg',
+      title: 'Breakfast',
+      rows: 3,
+      cols: 2,
+    },
+    {
+      img: 'download.jpg',
+      title: 'Burger',
+    },
+    {
+      img: 'images.jpg',
+      title: 'Camera',
+    },
+    {
+      img: 'gjiro1.jpg',
+      title: 'Coffee',
+      cols: 2,
+    },
+    {
+      img: 'gjirokaster-albania-22.jpg',
+      title: 'Hats',
+      cols: 2,
+    },
+    {
+      img: 'Gjirokaster.jpg',
+      title: 'Honey',
+      rows: 2,
+      cols: 2,
+    },
+    {
+      img: 'top.jpg',
+      title: 'Basketball',
+      rows: 2,
+      cols: 2,
+    },
+    
+  ]
+
+  const itemData2 = [
+    {
+      img: 'chart.svg',
+      title: 'Basketball',
+      rows: 2.1,
+      cols: 4,
+    },
+    {
+        img: 'chart3.svg',
+        title: 'Basketball',
+        rows: 2.1,
+      cols: 4,
+      },
+    {
+        img: 'chart4.svg',
+        title: 'Basketball',
+        rows: 2.1,
+      cols: 4,
+      },
+    {
+        img: 'chart5.svg',
+        title: 'Basketball',
+        rows: 2.1,
+      cols: 4,
+      },
+      {
+        img: 'chart6.svg',
+        title: 'Basketball',
+        rows: 2.1,
+      cols: 4,
+      },
+    
+    
+  ]
 
 export default MainBody3

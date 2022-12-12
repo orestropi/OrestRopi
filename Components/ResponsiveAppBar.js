@@ -25,8 +25,8 @@ const ResponsiveAppBar = () => {
   };
 const pages = [
     {pageName:"Home",link:"/"},
-    {pageName:"About Me",link:"/About"},
-    {pageName:"Contact",link:"/Contact"}
+    {pageName:"View Essay",link:"/About"},
+    {pageName:"Visualize",link:"/Contact"}
 ];
 
   return (
@@ -39,7 +39,7 @@ const pages = [
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            Orest Ropi
+            Chronicle in Stone
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

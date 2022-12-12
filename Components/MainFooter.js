@@ -16,7 +16,7 @@ function MainFooter() {
     const mystyle = {
         borderRadius: 15,
         width: 60,
-        height: 60
+        height: 60,
       };
       function handleGit(e) {
         e.preventDefault();
@@ -29,7 +29,7 @@ function MainFooter() {
     return (
         
 
-        <footer className='footer'>
+        <footer className='footer' >
 
             <div>
                 <Box >
