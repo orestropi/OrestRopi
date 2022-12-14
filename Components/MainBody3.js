@@ -17,7 +17,7 @@ function MainBody3() {
         <div >
             <div className='main-body-item' >
                 <Grid direction="column" container spacing={10}style={{ marginTop: '1%'}}>
-                <Grid item direction="row" height={'130vh'} style={{ marginBottom: '10%'}} container spacing={2}>
+                <Grid item direction="row" height={'100vh'} style={{ marginBottom: '1%'}} container spacing={2}>
                         
                         <Grid  style={{ justifyContent: "flex-start" }}>
                         
