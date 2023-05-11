@@ -1,61 +1,78 @@
-import { Box, Card, Grid, Paper, Typography } from '@mui/material'
+import { Card, Grid, Paper, Typography } from '@mui/material'
 import React from 'react'
 
 
 function MainBody() {
 
     return (
-        <div >
+        <div>
             <div className='main-body-item' >
-                <Grid direction="column" container spacing={10}style={{ marginTop: '1%'}}>
-
-
-                    <Grid item direction="row" height={'100vh'} style={{ marginBottom: '10%'}} container spacing={2}>
-                        
-                        <Grid  style={{ justifyContent: "flex-start" }}>
-                        
-                        <h1 style={{ marginBottom: '1%', textAlign: 'center' }}>Chronicle in Stone</h1>
                 
-                        <body style={{ marginBottom: '2%', textAlign: 'center' }}>
+                <Grid direction="row" container spacing={4}style={{ marginTop: '5%', marginBottom: '5%'}}>
                         
+                        <Grid item xs={12} sm={12} md={6} >
+                            <h2>P1: RickAndMorty Treemaps</h2>
+                            
+                        
+                        <li>A java game that allows users to make moves until the center square is 11 or they are out of moves.</li>
+                        <li>Fully tested using JUnit5 test cases.</li>
+                        <li>An individual project created for my software engineering class that was written in Java using Java Swing for the GUI.</li>
+                        <li>Uses The Model View Controller (MVC) design pattern for scalability and development efficiency.</li>
                         <div>
-                        <img style={{ marginBottom: '3%'}}src={`./kadb.jpg`}/></div>
+                        <iframe scrolling="no" id='iframe-chart' width="100%" height="650vh" src="https://rickandmortyfinalp.glitch.me/" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        </div>
+                        </Grid>
+
+                        <Grid item xs={12} sm={12} md={6}>
+                        <h2>P2: GridGame <td style={{ color: 'deepskyblue'}}><a href={"https://drive.google.com/file/d/10YZzXYxkoO2bgg9t1HO7P87QxnMQaZJj/view?usp=sharing"}>Click here to download</a></td> </h2>
+
                         
-                        Chronicle in Stone by Ismail Kadare was published in 1971. The novel takes place in Gjirokastër, Albania, and is narrated by a young boy. During WW2, the city was occupied by the Italians, Germans, and Greeks. The narrator witnesses the struggles and hardships of life under foreign rule. Through the eyes of the young boy, Kadare paints a vivid picture of the city and its people, as well as the impact of war on their daily lives.
-
-                        <br></br><br></br>One of the central themes is the relationship between culture and war. Kadare uses the story of the city to explore the way in which the past shapes the present, and how culture can be used to understand and interpret the effects of war. The novel also explores the nature of war and its effects on culture, individuals, and society.
-
-                        <br></br><br></br>In addition to its historical and mythological elements, Chronicle in Stone is also a powerful portrayal of Albanian culture. Through the eyes of the narrator, Kadare explores the complexities of love, friendship, loyalty, and revenge. The novel provides a thought-provoking exploration of the shifts in culture during war, and continues to be a classic of Albanian literature.</body>
-
+                        <li>A java game that allows users to make moves until the center square is 11 or they are out of moves.</li>
+                        <li>Fully tested using JUnit5 test cases.</li>
+                        <li>An individual project created for my software engineering class that was written in Java using Java Swing for the GUI.</li>
+                        <li>Uses The Model View Controller (MVC) design pattern for scalability and development efficiency.</li>
+                        <div>
+                        <img style={{ marginBottom: '3%'}}src={`./GridGame.png`}/></div>
+                        
                         </Grid>
                         
-                    </Grid>
-
-                    <Grid item direction="row" height={'130vh'} style={{ marginBottom: '10%'}} container spacing={2}>
-                        
-                        <Grid  style={{ justifyContent: "flex-start" }}>
-                        
-                        <h1 style={{ marginBottom: '1%', textAlign: 'center' }}>Ismail Kadare</h1>
-                
-                        <body style={{ marginBottom: '5%', textAlign: 'center' }}>
-                        
+                        <Grid item xs={12} sm={12} md={6}>
+                        <h2>P3: ContactTracker <td style={{ color: 'deepskyblue'}}><a href={"https://contacttracker.glitch.me/"}>Website Link</a></td></h2>                       
+                        <li>A website that allows users to create accounts and record contacts.</li>
+                        <li>An individual project for my webware class that used JavaScript, Node.js, Express.js, @hapi/joi, HTML, CSS, cookies, and mongoDB.</li>
                         <div>
-                        <img style={{ marginBottom: '3%'}}src={`./10838.jpg`}/></div>
-                        
-                        Ismail Kadare is an Albanian novelist, poet, and playwright from Albania. Born in 1936 in Gjirokastër, Albania, Kadare grew up under the oppressive rule of Communist dictator Enver Hoxha. Despite this, he was able to attend the University of Tirana, where he studied literature.
-
-                        <br></br><br></br>Kadare's early works were heavily influenced by the strict censorship of the Communist regime, and often contained subtle criticisms of the government. One of his most famous novels, "The General of the Dead Army," tells the story of an Italian general who is sent to Albania to recover the remains of Italian soldiers who died during World War II. Through the character of the general, Kadare explores the brutality and futility of war, as well as the corrupting influence of totalitarianism.
-
-
-                        <br></br><br></br>In 1990, Kadare was awarded the prestigious Herder Prize for his contributions to literature, and he has since received numerous other awards and honors. He is known for his unique blend of myth, history, and allegory in his works, which often deal with the struggles of the Albanian people against foreign oppression.
-
-                        <br></br><br></br>Despite facing criticism and repression from the Communist government, Kadare remained a powerful and influential voice in Albanian literature. Today, he is regarded as a great writer from the 20th century, and his works have been translated from Albanian into many languages.
-</body>
-
+                        <img style={{ marginBottom: '3%'}}src={`./ct.png`}/></div>
                         </Grid>
                         
-                    </Grid>
+                        <Grid item xs={12} sm={12} md={6}>
+                        <h2>P4: TaskManager <td style={{ color: 'deepskyblue'}}><a href={"https://www.youtube.com/watch?v=gQYvom4qQxo&ab_channel=Are_guns_magic%3F"}>Youtube Link</a></td></h2>
 
+                        
+                        <li>A website that allows users to create accounts and record personalised tasks and subtasks.</li>
+                        <li>A group project for my webware class that used JavaScript, HTML, and CSS.</li>
+                        <li>I contributed by organizing meetings, creating a login system using mongoDB(front end & back end), and main task functionality(front end & back end).</li>
+                        <div>
+                        <img style={{ marginBottom: '3%'}}src={`./tt.png`}/></div>
+                        </Grid>
+                        
+                        <Grid item xs={12} sm={12} md={6} >
+                        <h2>P5: OthelloAI</h2>
+
+                        
+                        <li>An engine that plays optimal moves in the board game Othello using a minimax algorithm with alpha-beta pruning.</li>
+                        <li>A group project for my AI class that was written in Python. I contributed to writing an evaluation function, writing the majority of the minimax algorithm, and helping with the alpha-beta pruning.</li>
+                        <li>The engine, named agony.py, usually can reach a depth of 8-10 moves within 5 seconds.</li>
+                        </Grid>
+
+                        
+                        <Grid item xs={12} sm={12} md={6}>
+                        <h2>P6: WireView</h2>
+
+                        
+                        <li>Similar to Wireshark the program parses tcpdump data into different headers, protocols, senders, and recipients.</li>
+                        <li>A group project for my networks class that quickly turned into an individual project when my partner stopped doing work.</li>
+                        <li>Works on Ubuntu 20.04 Linux virtual machine and is written in C and C++ using the pcap library.</li>
+                        </Grid>
                 </Grid>
             </div>
         </div>
@@ -63,3 +80,5 @@ function MainBody() {
 }
 
 export default MainBody
+
+

@@ -24,9 +24,9 @@ const ResponsiveAppBar = () => {
     setAnchorElNav(null);
   };
 const pages = [
-    {pageName:"Home",link:"/"},
-    {pageName:"View Essay",link:"/About"},
-    {pageName:"Visualize",link:"/Contact"}
+    {pageName:"Projects",link:"/"},
+    {pageName:"About",link:"/About"},
+    {pageName:"Contact",link:"/Contact"}
 ];
 
   return (
@@ -39,7 +39,7 @@ const pages = [
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            Chronicle in Stone
+            Orest Ropi
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
