@@ -20,10 +20,6 @@ function MainBody3() {
                         <li>LinkedIn: <a style={{ color: 'deepskyblue'}} href="https://www.linkedin.com/in/orest-ropi-480036231/">
                             Link</a
                         ></li>
-                        <li>Uses The Model View Controller (MVC) design pattern for scalability and development efficiency.</li>
-                        <div>
-                        <iframe scrolling="no" id='iframe-chart' width="100%" height="650vh" src="https://rickandmortyfinalp.glitch.me/" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </div>
                         </Grid>
                 </Grid>
             </div>
