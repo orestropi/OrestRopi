@@ -9,7 +9,7 @@ function MainBody3() {
         <div>
             <div className='main-body-item' >
                 
-                <Grid direction="row" container spacing={4}style={{ marginTop: '5%', marginBottom: '5%'}}>
+                <Grid direction="row" container spacing={4}style={{ marginTop: '10%', marginBottom: '10%'}}>
                         
                         <Grid item xs={12} sm={12} md={12} >
                             <h2>Contact</h2>
@@ -18,7 +18,7 @@ function MainBody3() {
                         <li>Number: 857-928-3387</li>
                         <li>Email:  oropi@wpi.edu</li>
                         <li>LinkedIn: <a style={{ color: 'deepskyblue'}} href="https://www.linkedin.com/in/orest-ropi-480036231/">
-                            Link</a
+                        https://www.linkedin.com/in/orest-ropi-480036231/</a
                         ></li>
                         </Grid>
                 </Grid>
