@@ -14,10 +14,8 @@ function MainBody() {
                             <h2>P1: RickAndMorty Treemaps</h2>
                             
                         
-                        <li>A java game that allows users to make moves until the center square is 11 or they are out of moves.</li>
-                        <li>Fully tested using JUnit5 test cases.</li>
-                        <li>An individual project created for my software engineering class that was written in Java using Java Swing for the GUI.</li>
-                        <li>Uses The Model View Controller (MVC) design pattern for scalability and development efficiency.</li>
+                        <li>A visualization that displays character activity for Rick and Morty in seasons 1, 2, and 3.</li>
+                        <li>An individual project created for my data visualization class that was written in JavaScript using the D3.js library.</li>
                         <div>
                         <iframe scrolling="no" id='iframe-chart' width="100%" height="650vh" src="https://rickandmortyfinalp.glitch.me/" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
