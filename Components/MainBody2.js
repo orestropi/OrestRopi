@@ -12,10 +12,8 @@ function MainBody2() {
                         
                         <Grid item xs={12} sm={12} md={12} lg={6}>
                         <p>
-                        <img
-                            src="./GridGame.png"
-                            alt="It's me!"
-                        />
+                        <img style={{ marginBottom: '3%'}}src={`./pp.png`}/>
+
                         </p>
 
                         <p>My name is Orest Ropi and I am a part of WPI's class of 2023.</p>
