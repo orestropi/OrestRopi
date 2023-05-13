@@ -13,7 +13,7 @@ function MainBody2() {
                         <Grid item xs={12} sm={12} md={12} lg={6}>
                         <p>
                         <img style={{ marginBottom: '3%', width: "50vh", height: "50vh"}}
-                            src="./pp3.jpg"
+                            src="./ppf.jpg"
                             alt="It's me!"
                         />
                         </p>
