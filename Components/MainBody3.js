@@ -16,7 +16,7 @@ function MainBody3() {
                             
                         
                         <li>Number: 857-928-3387</li>
-                        <li>Email:  oropi@wpi.edu</li>
+                        <li>Email: orestropi@gmail.com</li>
                         <li>LinkedIn: <a style={{ color: 'deepskyblue'}} href="https://www.linkedin.com/in/orest-ropi-480036231/">
                         https://www.linkedin.com/in/orest-ropi-480036231/</a
                         ></li>
