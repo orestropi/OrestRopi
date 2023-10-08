@@ -63,13 +63,13 @@ function MainFooter() {
                             <Grid style = {{paddingTop: '50px'}} item xs={12} sm={6} md={6}>
                                 <IconButton2 className = 'button1' style ={mystyle} onClick={handleLinked} size="large"><LinkedInIcon/> </IconButton2>
                                 <Typography variant="h6" color="white" >
-                                    Work Experience
+                                    WExperience
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
                                     <a>Software Engineer Internship - Schneider Electric [4 Months]</a>
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a>\n Full-Stack Developer Internship - Diamond Diagnostics [2 Months]</a>
+                                    <a>Full-Stack Developer Internship - Diamond Diagnostics [2 Months]</a>
                                 </Typography>
                             </Grid>
                         </Grid>
