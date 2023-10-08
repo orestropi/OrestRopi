@@ -66,7 +66,8 @@ function MainFooter() {
                                     Work Experience
                                 </Typography>
                                 <Typography variant="subtitle1" color="white" >
-                                    <a>none yet</a>
+                                    <a>Software Engineer Internship - Schneider Electric [4 Months]</a>
+                                    <a>Full-Stack Developer Internship - Diamond Diagnostics [2 Months]</a>
                                 </Typography>
                             </Grid>
                         </Grid>
