@@ -58,16 +58,16 @@ function MainBody2() {
 
                         <p>
                         Java - a lot <br />
-                        HTML - some <br />
                         JavaScript - some <br />
+                        TypeScript - some <br />
                         C++ - some <br />
                         Python - some <br />
                         MATLAB - some <br />
-                        CSS - a little <br />
+                        HTML - some <br />
+                        CSS - some <br />
                         C - a little <br />
                         LaTeX - a little <br />
                         R - a little <br />
-                        Unit testing - a lot <br />
                         </p>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12} lg={6} >
@@ -75,16 +75,18 @@ function MainBody2() {
                         <h4>Experience Technologies:</h4>
                         <p>
                         Windows and Linux - a lot <br />
+                        Unit testing - a lot <br />
                         Git - a lot <br />
                         Node.js - some <br />
                         Express.js - some <br />
+                        Angular - some <br />
                         Mongo DB - some <br />
                         Oracle DB - some <br />
                         D3.js - some <br />
                         MySQL DB - a litte <br />
                         AWS - a little <br />
                         Swing - a little <br />
-                        react.js - a little <br />
+                        React.js - a little <br />
                         </p>
                                             
                                             </Grid>
